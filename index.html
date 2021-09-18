@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahadi Microfinance</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="topy">
+        <div id="header">
+        <div id="bname">Ahadi Microfinance </div>
+        <div id="logo">
+            <img src="images/logo.jpeg" alt="LOGO">
+        </div>
+       
+    </div>
+
+    <nav>
+        <ul id="menu" >
+            <li><a href="#"  onclick="home()">Home</a></li>
+            <li><a href="#services" onclick="services()">Services</a></li>
+            <li><a href="#contacts" onclick="contacts()">Contacts</a></li>
+            <li><a href="register.html" target="iframe_a"><span id="reg" onclick="register()">Register</span></a></li>
+        </ul>
+
+        <div id="mobile" class="mobile-bar" onclick="toggleMobileMenu()">
+            <span class="spn"></span>
+            <span class="spn"></span>
+            <span class="spn"></span>
+        </div>
+    </nav>
+    </div>
+
+    <div class="content" >
+        <div class="intro" id="hide1">
+            <div class="desc"><p><b>Ahadi</b> is a certified Microfinance that was set up in May 2020 to assist in Investment funding during the tough times of Covid 19.
+                This was to enable business continuity despite the prevailing circumstances thereby directly aiding in business stability through providing funds and quick loans at an affordable interest rate. </p>
+            </div>
+            <div id="image1"></div>              
+        </div>
+        <iframe  name="iframe_a" id="show1"></iframe>
+        <div class="intro" id="hide3">
+            <div id="image2"></div>  
+            <div class="desc"><p>Ahadi has emerged to be one of the best financial institution on the ground due to various services offered with corresponding minimal requirements.
+                The efficient services and affordable rates has given us an overtime exponential growth especially among the youthfull businesses and startups across the country. </p>
+                <p>Join us now and enjoy the full benefits at discounted rates on the services registered.</p>
+            </div>
+                        
+        </div>
+    </div>
+
+    <div  id="services">
+        <h3>OUR SERVICES</h3>
+        <p>At Ahadi Microfinance offers various services to our beloved customers with quality service being our main objective.</p>
+        <p>Our client's interest is always given the first priority at all times and confidentiality is highly observed as per our customer relations policy.</p>
+        <p>The services offered include:</p>
+
+        <div class="images" id="images">
+            <div class="img">
+                <a target="_self" href="images/asset.jfif">
+                  <img src="images/asset.jfif" alt="Fjords" width="300" height="200">
+                </a>
+                <div class="desc">Asset Management</div>
+              </div>
+              
+              <div class="img">
+                <a target="_self" href="images/Loans.jfif">
+                  <img src="images/Loans.jfif" alt="Forest" width="300" height="200">
+                </a>
+                <div class="desc">Loans Issuance</div>
+              </div>
+              
+              <div class="img">
+                <a target="_self" href="images/consultations.jfif">
+                  <img src="images/consultations.jfif" alt="Northern Lights" width="300" height="200">
+                </a>
+                <div class="desc">Financial Consultations</div>
+              </div>
+              
+              <div class="img">
+                <a target="_self" href="images/accounts.jpeg">
+                  <img src="images/accounts.jpeg" alt="Mountains" width="300" height="200">
+                </a>
+                <div class="desc">Account Opening and Management.</div>
+              </div>
+    
+              <div class="img">
+                <a target="_self" href="images/transfers.jfif">
+                  <img src="images/transfers.jfif" alt="Mountains" width="300" height="200">
+                </a>
+                <div class="desc">Account Opening and Management.</div>
+              </div>
+        </div>
+    
+
+    </div>
+    
+<div class="miscellaneous" id="hide2">
+        <div class="contacts" id="contacts">
+            <h4>Contacts</h4>
+            <ul>
+                <li>REE SOLUTIONS CO.</li>
+                <li>Westlands Square, Nairobi</li>
+                <li>+254 100901269</li>
+                <li>nree254@outlook.com</li>
+            </ul>
+
+            <div class="media">
+                
+                <a href="https://www.facebook.com/neftal.rainer" target="_blank" rel="noopener noreferrer"><img src="images/facebook-new.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/_nrainer/" target="_blank" rel="noopener noreferrer"><img src="images/instagram-new--v1.png" alt="Instagram"></a>
+                <a href="https://twitter.com/N_Rainer" target="_blank" rel="noopener noreferrer"><img src="images/twitter--v1.png" alt="Twitter"></a>
+                <a href="https://wa.me/+254746217838" target="_blank" rel="noopener noreferrer"><img src="images/whatsapp.png" alt="WhatsApp"></a>
+            </div>
+
+        </div>
+
+        <div class="about">
+            <h4>About</h4>
+            <ul>
+                <a href="#"><li>Privacy Policy</li></a>
+                <a href="#"><li>FAQs</li></a>
+                <a href="#"><li>Terms of Service</li></a>
+            </ul>
+
+        </div>
+
+        
+    <div class="message">
+
+            <h4>Contact Form</h4>
+            <form action="#">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address" name="" id="">
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <button  type="submit">Send</button>
+            </form>
+        </div>
+
+    </div> 
+   
+
+    <div class="footer">
+        <p> &copy Copyright 2020</p> <hr>
+        <p>All Rights Reserved</p> <hr>
+        <p>Powered by REE FOUNDS</p>
+        
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <div class="regpage">
+        <title>Form Validations</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="content">
+            <div id="user" >
+                <img src="images/administrator-male.png" alt="">
+            </div>
+            <form action="#" method="post" id="info" name="myForm" onsubmit="return validateForm()">
+                
+                <label for="fnames">Full Names: <span>*</span></label> <br>
+                <input type="text" name="name" onchange="myFunction()" id="fnames" placeholder="Enter your full names"> <br>
+    
+                <label for="mail">Email: <span>*</span></label> <br>
+                <input type="email" name="mail" id="mail" placeholder="Enter your email"> <br>
+    
+                <label for="passw">Password: <span>*</span></label> <br>
+                <input type="password" name="passw" id="passw" min="6"> <br>
+    
+                <label for="area">Type of Account: <span>*</span></label> <br>
+                <select name="" id="area">
+                    <option value="">Current Account</option>
+                    <option value="">Savings Account</option>
+                    <option value="">Fixed Deposit Account</option>
+                    <option value="">Loan Account</option>
+                </select> <br>
+
+                <input type="checkbox" name="" id="terms">
+                <p>Accept our <a href="#">terms and conditions</a>.</p> 
+                <p style="color: white">Fill all fields with red asterics</p>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+        <script type="text/javascript" src="script.js"></script>
+        </div>
+    </body>
+</html>
