@@ -360,7 +360,7 @@ iframe{
 }
 
 .images{
-    padding: 20px;
+    padding: 10px;
     
 }
 
@@ -368,7 +368,7 @@ iframe{
     margin: 15px;
     border: 1px solid #ccc;
     float: left;
-    width: 180px;
+    width: 20%
 }
 
 .img:hover {
@@ -377,7 +377,6 @@ iframe{
 
 .img img {
     width: 100%;
-    height: 250px;
 }
 
 
@@ -675,7 +674,7 @@ form p{
         width: 400px;
     }
 
-   .images{
+   .img{
        display: flex;
        flex-direction: column;
    }
